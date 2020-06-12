@@ -25,9 +25,7 @@ else if (guess < secretNumber){
 else{
     displayOutput("error");
 }
-// display output
-  // image
-  // text
+var guess = document.getElementById("user-guess")[0].select();
 }
 
 function displayOutput(result){
